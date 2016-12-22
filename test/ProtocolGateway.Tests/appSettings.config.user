@@ -1,12 +1,12 @@
 <appSettings>
   <!-- E2E test settings -->
   <!-- uncomment next line to connect to running protocol gateway deployment instead of starting in-process protocol gateway during test initialization -->
-  <!--<add key="End2End.ServerAddress" value="TODO: protocol gateway deployment IP-address" />-->
+<add key="End2End.ServerAddress" value="52.187.65.150" />
   <!-- uncomment next line to use an existing device. WARNING: any existing messages in device queue will be completed -->
-  <!--<add key="End2End.DeviceName" value="TODO: test device name" />-->
+ <add key="End2End.DeviceName" value="raspberrypicamera-001" />
 
   <!-- IoT Hub Client settings -->
-  <add key="IotHubClient.ConnectionString" value="TODO: iot hub connection string" />
+  <add key="IotHubClient.ConnectionString" value="HostName=cspimon.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=ZTgImd0YKVZNxZIjSKOlyufcTYgGay68OMRDtz+McIE=" />
   <add key="IotHubClient.MaxPendingInboundMessages" value="16" />
   <add key="IotHubClient.MaxPendingOutboundMessages" value="10" />
   <add key="IotHubClient.DefaultPublishToClientQoS" value="1" />
